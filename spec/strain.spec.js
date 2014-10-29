@@ -1,7 +1,5 @@
 'use strict';
 
-var strain = require('../lib/strain');
-
 describe("strain", function() {
 
   it("keeps on empty array returns empty array", function() {
