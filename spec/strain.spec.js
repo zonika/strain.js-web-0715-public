@@ -21,7 +21,7 @@ describe('strain', function() {
   xit('keeps strings', function() {
     var words = 'apple zebra banana zombies cherimoya zealot'.split(' ');
     var result = strain.keep(words, function(word) { return word.indexOf('z') === 0; });
-    expect(result).toEqual('zealot zebra zombies'.split(' '));
+    expect(result).toEqual('zebra zombies zealot'.split(' '));
   });
 
   xit('keeps arrays', function() {
