@@ -1,9 +1,3 @@
----
-languages: javascript
-tags: objects, callbacks, reject, select
-resources: 1
----
-
 # Strain
 ## Getting Started
 
