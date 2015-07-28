@@ -6,7 +6,7 @@ Review the `strain.js` file inside the `lib` directory, and then the `strain.spe
 `strain` will be a regular JavaScript object that you will attach functions to as properties.  You can then call these functions from the object as if they were methods on an instance.
 
 ex.
-```javascripts
+```javascript
   var car = {
     honk: function(){
       console.log('HONK!!!!!!');
